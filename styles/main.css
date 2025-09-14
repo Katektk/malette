@@ -1,0 +1,243 @@
+:root{
+    --montserrat:"Montserrat", serif;
+}
+
+body{
+    font-family: var(--montserrat);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    background-color: #393939;
+    
+
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 142px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 250px;
+    height: 45px;
+    border-radius: 40px;
+    padding-left: 10px;
+    justify-content: space-between;
+
+}
+.search input {
+    border: none;
+    outline: none;
+
+}
+.search button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    background-image: url(../images/search.svg);
+    width: 30px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    justify-content: end;
+    
+}
+
+.logo {
+    display: block;
+    width: 200px;
+    height: 82px;
+    background-image: url(../images/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav {
+    display: flex;
+    gap: 47px;
+    margin-left: min(10vw, 140px);
+    justify-content: end;
+}
+
+.nav-heart {
+    display: block;
+    width: 32px;
+    height: 33px;
+    background-image: url(../images/heart.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav-login {
+    display: block;
+    width: 32px;
+    height: 33px;
+    background-image: url(../images/login.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.nav-cart {
+    display: block;
+    width: 32px;
+    height: 33px;
+    background-image: url(../images/cart.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*banner*/
+
+.banner {
+    margin-top: 60px;
+    
+}
+.banner-wrapper {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 186px;
+    position: relative;
+}
+.banner-btn {
+    display: block;
+    background-color: #BB0909;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 405px;
+    cursor: pointer;
+}
+
+/*catalog*/
+
+.catalog {
+    margin-bottom:  50px;
+
+}
+
+.catalog-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 34px;
+}
+
+.catalog-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: black
+}
+.catalog-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 105px;
+    margin-top: 45px;
+    
+}
+.catalog-item {
+    text-align: center;
+}
+.catalog-thumb {
+    width: 350px;
+    height: 314px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    
+}
+.catalog-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    border: none;
+    padding: 13px 21px;
+    background-color:#393939;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 129%;
+    text-decoration: none;
+    color: white;
+    width: 304px;
+
+}
+
+/*о компании*/
+.info-box {
+    display: flex;
+    gap: 47px;
+    width: 100%;
+    align-items: center;
+
+    
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 34px;
+} 
+.info-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: black
+}
+
+.info-text {
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 140px;
+}
+.info-photo {
+    max-width: 732px;
+}
+
+.brends-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 47px;
+    width: 100%;
+    align-items: center;
+}
+
